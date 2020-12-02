@@ -1,0 +1,14 @@
+{
+  "name": "style-dictionary-scss-component",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "David Yeiser (https://davidyeiser.com/)",
+  "scripts": {
+    "build": "yarn generate:tokens",
+    "generate:tokens": "rm -rf build && node index.js"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.20",
+    "style-dictionary": "^2.10.2"
+  }
+}
